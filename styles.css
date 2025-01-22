@@ -1,0 +1,54 @@
+body {
+    background-color: #d971bf;
+    color: #63131b;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove any default margin */
+  }
+  
+  .title {
+    font-size: 50px;
+  }
+  
+  
+  .labels {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly */
+    width: 100%; /* Or set a fixed width if needed */
+    max-width: 350px; /* Adjust as needed */
+    margin: 0 auto; /* Center the labels */
+  }
+  
+  .inputs {
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly */
+    width: 100%; /* Or set a fixed width if needed */
+    max-width: 500px; /* Adjust as needed */
+    margin: 0 auto; /* Center the labels */
+  }
+
+  .text {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .button {
+    font-size: 20px;
+    background-color: #63131b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding:10px;
+  
+      
+  }
+  
+  #percent {
+    font-weight: bold;
+    font-size: 20px
+  }
