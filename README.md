@@ -1,2 +1,2 @@
 # LoveDetector
-A love detector site created with HTML, CSS, and JS
+A love detector web application created with HTML, CSS, and JS
